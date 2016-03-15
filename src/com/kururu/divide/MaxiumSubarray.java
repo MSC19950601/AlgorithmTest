@@ -5,8 +5,8 @@ package com.kururu.divide;
  */
 public class MaxiumSubarray {
 
-    int max_left_index = 0;
-    int max_right_index = 0;
+    public static int max_left_index = 0;
+    public static int max_right_index = 0;
 
     public int bynarySearchSumForCross(int array[],int left,int mid,int right){
         int leftSum = Integer.MIN_VALUE;
@@ -44,7 +44,8 @@ public class MaxiumSubarray {
 
     public static void main(String[] args) {
         int[] array = {-2,1,-3,4,-1,2,1,-5,4};
-        System.out.println(new MaxiumSubarray().bynarySearchSum(array,0,7));
-
+        System.out.println(new MaxiumSubarray().bynarySearchSum(array,0,array.length-1));
+        System.out.println(max_left_index + 1);
+        System.out.println(max_right_index + 1);
     }
 }

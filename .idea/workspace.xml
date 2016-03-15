@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70561bfc-9f2b-474b-b763-33cd5ffcef26" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kururu/dp/MaxiumSubarray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AlgorithmTest/com/kururu/divide/MaxiumSubarray.class" afterPath="$PROJECT_DIR$/out/production/AlgorithmTest/com/kururu/divide/MaxiumSubarray.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/kururu/ChessCoverProblem.java" afterPath="$PROJECT_DIR$/src/com/kururu/divide/ChessCoverProblem.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/kururu/MaxiumSubarray.java" afterPath="$PROJECT_DIR$/src/com/kururu/divide/MaxiumSubarray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kururu/divide/MaxiumSubarray.java" afterPath="$PROJECT_DIR$/src/com/kururu/divide/MaxiumSubarray.java" />
     </list>
     <ignored path="AlgorithmTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +38,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxiumSubarray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaxiumSubarray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kururu/divide/MaxiumSubarray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxiumSubarray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kururu/dp/MaxiumSubarray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.2023988">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="27" />
@@ -72,6 +83,7 @@
         <option value="$PROJECT_DIR$/src/com/kururu/MaxiumSubarray.java" />
         <option value="$PROJECT_DIR$/src/com/kururu/divide/ChessCoverProblem.java" />
         <option value="$PROJECT_DIR$/src/com/kururu/divide/MaxiumSubarray.java" />
+        <option value="$PROJECT_DIR$/src/com/kururu/dp/MaxiumSubarray.java" />
       </list>
     </option>
   </component>
@@ -148,6 +160,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kururu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -796,12 +812,12 @@
       <workItem from="1458018835908" duration="767000" />
       <workItem from="1458020953301" duration="4453000" />
       <workItem from="1458028519977" duration="2885000" />
-      <workItem from="1458036943558" duration="5194000" />
+      <workItem from="1458036943558" duration="6507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14352000" />
+    <option name="totallyTimeSpent" value="15665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1050" extended-state="6" />
@@ -912,6 +928,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kururu/divide/MaxiumSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kururu/dp/MaxiumSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2023988">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="27" />
