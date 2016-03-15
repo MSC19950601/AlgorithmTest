@@ -8,7 +8,7 @@ public class MaxiumSubarray {
     public static int max_left_index = 0;
     public static int max_right_index = 0;
 
-    public int bynarySearchSumForCross(int array[],int left,int mid,int right){
+    public int bynarySearchSumForCross(int[] array,int left,int mid,int right){
         int leftSum = Integer.MIN_VALUE;
         int sum = 0;
         for(int i = mid; i > left - 1;i--){
@@ -31,7 +31,7 @@ public class MaxiumSubarray {
         return leftSum + rightSum;
     }
 
-    public int bynarySearchSum(int array[],int left,int right){
+    public int bynarySearchSum(int[] array,int left,int right){
         int leftMaxSum, rightMaxSum, crossMaxSum;
         if(left == right)   return array[left];
         int mid = (left + right)/2;
